@@ -1,0 +1,1 @@
+# class-name-to-alias-converter
