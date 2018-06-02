@@ -1,0 +1,28 @@
+{
+    "name": "ilbox/fqcn-converter",
+    "type": "library",
+    "license": "MIT",
+    "homepage": "https://github.com/iliabox/ClassNameToAliasConverter",
+    "require": {
+        "php": ">=7.0",
+        "symfony/serializer": "^3.0|^4.0"
+    },
+    "authors": [
+        {
+            "name": "Elias Bulychov",
+            "email": "iliabulychov+git@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Ilbox\\Utils\\": "src\\"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Ilbox\\Utils\\Tests\\": "tests\\"
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
